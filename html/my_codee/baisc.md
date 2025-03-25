@@ -113,7 +113,7 @@ ex) <ol type ="a" stret = "3">
 ## 사진의 크기를 지정하는 태그<br>
 **\<width\>**  => 가로크기<br>
 **\<height\>** => 세로크기<br>
-<img src = "img/nazuna.png" width = "100">
+<img src = "img/nazuna.PNG" width = "100">
 참고 => 크기조절할떄 width 옵션 하나만 쓰면 가로새로가 자동으로 맞춰서 지정
 
 오디오나 비디오도 삽입할수있음<br>
