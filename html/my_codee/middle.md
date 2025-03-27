@@ -124,11 +124,12 @@ button
 대부분 롤오버시 발생<br>
 자동으로 입력커서에 갖다놓는 autofocus속성
 <p></p>
-placeholder -> 입력폼에 힌트
+**placeholder** -> 입력폼에 힌트<br>
 
-
-
-
+읽기전용필드 -> 사용자가 입력할수 없고 개발자가 직접만들어놔서 못건들게 하는거
+<br> **readonly**
+<br>
+**required** -> 해당폼의 입력을 반듯이 해야될때
 
 
 
