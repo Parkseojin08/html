@@ -153,11 +153,19 @@ button
 <br>
 **required** -> 해당폼의 입력을 반듯이 해야될때
 
+<p></p>
+<p></p>
 
-
-
-
-
+**buttom**
+```html
+<input type = "시튼 리셋 서밋" value = "버튼이름">
+```
+-> input 태그의 버튼 만들기<br>
+<p></p>
+버튼 만드는 태그는 원해 따로 존재<br>
+<button type ="버튼의 유형">버튼이름</button>
+-버튼 유형<br>
+submit-> 전송 reset -> 초기화 button -> 기능연결(연결전까지는 기능 X)
 
 
 
