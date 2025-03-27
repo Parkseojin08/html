@@ -86,8 +86,16 @@ DB에 저장되는 실제적인 값인데 이것은 직접적인 숫자가 될�
 <p></p>
 -> option 속성 selected -> 목록에 처음에 표시되는 값 (기본 값)
 
-
-
+### 데이터 목록!! 
+(드롭다운의 묶음 목록)<br>
+```html
+<input type = "text" list = "데이터 목록-id">
+<datalist id = "데이터 목록-id">
+    <option value = "서버로 전송할 값">선택옵션</option>
+    .
+    .
+</datalist>
+```
 
 ## 객체지향
 -> 하나의 객체를 독립적인 요소로 보는것
