@@ -6,7 +6,8 @@
 \<input\> 사용자가 입력할 필드를 삽입<br>
 \(여러종류의 input태그가 존재)
 <P></P>
-\<select\>, \<option\> 드롭다운목록 만들기<br>
+
+\<select\> \<option\> 드롭다운목록 만들기<br>
 \<textarea>텍스트를 여러줄 입력할수있다.
 
 
