@@ -34,16 +34,17 @@ url = url주소를 입력할수 있는 필드를 넣는다<br>
 
 email = 이메일을 입력할수있는 텍스트창을 만든다<br>
 &nbsp; ex)여기도 텍스트박스랑 비슷함 만약에 형식에 구애받음
-&nbsp; ex)required = 이 옵션은 필수항목을 표시하는 즉 항목 입력 X submit되지 않는 항목 각각 input 필드의 항목에 적용하면 그 형태가 다다름
+&nbsp; ex)required = 이 옵션은 필수항목을 표시하는 즉 항목 입력 X submit되지 않는 
+&nbsp;항목 각각 input 필드의 항목에 적용하면 그 형태가 다다름
 <br>
-ex)
+&nbsp;ex)
 
 ```html 
 <input type = "email">
 ```
 내가 lgyaho 라고 입력하면 submit을 누르는 형식이 틀리다고 입력되지 않음<br>
 "형식의 구애받음"
-<br>
+<p></p>
 tel = 전화번호 입력 텍스트 박스를 만든다.
 <br>
 checkbox = 주어진 항목에 선택할 수 있는 박스를 생성(중복 가능)<br>
@@ -54,7 +55,7 @@ radio = 주어진 항목에서 선택할 수 있는 박스를 생성 (중복 불
 &nbsp; 옵션 name 과 for 이 두가지<br>
 &nbsp; name은 묶어줄떄 for은 연결할때 쓰는 옵션
 
-ex)
+&nbsp;ex)
 ```html
 <input type = "radio" name = "2-1"> 
 <input type = "radio" name튼<br>
