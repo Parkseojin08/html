@@ -78,6 +78,7 @@ button = 일단버튼 생성 기능 X<br>
 file = file 첨부버튼 생성  <br>
 hidden = 사용자에게 안보이지만 서버로 넘겨주는 값이 있는 필드를 생성<br>
 &nbsp;ex) 주석이랑은 다르지만 주석처럼 사용가능<br>
+
 ```html
 <input type="text" name="name"> 이름
 <input type="hidden" name="hiddenName" value="나즈나">
