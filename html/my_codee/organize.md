@@ -57,22 +57,8 @@ radio = 주어진 항목에서 선택할 수 있는 박스를 생성 (중복 불
 ex)
 ```html
 <input type = "radio" name = "2-1"> 
-<input type = "radio" name = "2-2"> 
-```
-이런식으로 묶는 작업 필요
-<p></p>
-
-number = 숫자 조절 스핀 박스(텍스트 박스 끝에 위 아래 누르는 화살표)<br>
-range = 숫자를 조절할 수 있는 슬라이드 박스(횡스크롤 박스(세로형태))<Br>
-data = 날자를 입력하는 창 (년 월 일) 사용자 사용 기준<br>
-month = 날짜 입력 창 (년 월)<br>
-week = 날 입 창 (년 주) ex)2025년 8째 주<br>
-time = 시간을 입력하는 창 (시 분 초)<br>
-datatime = 날짜와 시간을 입력하는 창 (국제 표준시 기준 (UTC))<br>
-datatime - locla = 날짜와 시간을 입력하는 창 (사용자 지역 기준)
-<p></p>
-submit = <br>
-reset = <br>
+<input type = "radio" name튼<br>
+reset = 천체 리셋(폼 내용 삭제)<br>
 image = submit 버튼 대신 넣을 사진<br>
 button = 일단버튼 생성 기능 X<br>
 file = file 첨부버튼 생성  <br>
