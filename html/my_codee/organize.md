@@ -34,7 +34,7 @@ url = url주소를 입력할수 있는 필드를 넣는다<br>
 
 email = 이메일을 입력할수있는 텍스트창을 만든다<br>
 &nbsp; ex)여기도 텍스트박스랑 비슷함 만약에 형식에 구애받음
-&nbsp; ex)required = 이 옵션은 필수항목을 표시하는 즉 항목 입력 X submit되지 않는 
+&nbsp; ex)required = 이 옵션은 필수항목을 표시하는 즉 항목 입력 X submit되지 않는 <br>
 &nbsp;항목 각각 input 필드의 항목에 적용하면 그 형태가 다다름
 <br>
 &nbsp;ex)
@@ -82,10 +82,14 @@ max = 숫자 입력필드의 최대값<Br>
 min = 숫자 입력필드의 최소값<br>
 step = 숫자 입력팔드의 "증가값"을 지정
 ```html
-<input type = "number" step = "2">
+<input type = "number" step = "2">사랑
 ```
 1 -> 3 -> 5 이런식으로
-
+<p></p>
+maxlength = 최대 문자의 길이 설정<br>
+minlength = 최소 문자의 길이 설정<br>
+size = 텍스트필드에 표시할 수 있는 글자갯수<br>
+list = 연갈할 데이터의 목록을 지정함<br>
 
 
 
