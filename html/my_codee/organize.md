@@ -11,7 +11,7 @@
 \<textarea>텍스트를 여러줄 입력할수있다.
 
 
-## <input>의 태그 유형(type)
+## \<input\>의 태그 유형(type)
 input과 같이쓰이는 type의 유형<br>
 쓰는 방법
 ```html
@@ -29,7 +29,7 @@ search = 검색하는 입력상자를 만든다<br>
 <p></p>
 url = url주소를 입력할수 있는 필드를 넣는다<br>
 &nbsp; ex)text옵션이랑 다를게 없음 왜 구분?<br>
-&nbsp; -> Html의 태그를 "시멘틱태그"이기 때문 시멘틱태그의 주요 목적 "가독성" (코드 쉽게이해)
+&nbsp; -> Html의 태그를 "시멘틱태그"이기 때문 시멘틱태그의 주요 목적 <b>"가독성"</b> (코드 쉽게이해)
 <p></p>
 email = 이메일을 입력할수있는 텍스트창을 만든다<br>
 &nbsp; ex)여기도 텍스트박스랑 비슷함 만약에 형식에 구애받음
@@ -77,12 +77,14 @@ image = submit 버튼 대신 넣을 사진<br>
 button = 일단버튼 생성 기능 X<br>
 file = file 첨부버튼 생성  <br>
 hidden = 사용자에게 안보이지만 서버로 넘겨주는 값이 있는 필드를 생성<br>
-&nbsp; ex) 주석이랑은 다르지만 주석처럼 사용가능<br>
-&nbsp; \<input type = "text" for = "name"\>이름<br>
-&nbsp; \<input type = "hidden" for = "name"\>나즈나<br>
+&nbsp;ex) 주석이랑은 다르지만 주석처럼 사용가능<br>
+```html
+<input type = "text" for = "name">이름
+<input type = "hidden" for = "name">나즈나
+```
 이름을 "나나쿠사" 라고 입력하지만 서버로는 나나쿠사 + 나즈나 두 값이 전송
 
-## <input> 태그의 속성 (단일 태그)
+## \<input\> 태그의 속성 (단일 태그)
 autofocus = 웹문서가 열리면 기본으로 커서<br>
 placeholder = 텍스트 필드의 "힌트" or "안내문구 등 표시할 수 있음<br>
 readonly = 읽기 전용 필드 -> 사용자 입력 X<br>
