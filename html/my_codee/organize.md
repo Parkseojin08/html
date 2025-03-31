@@ -79,8 +79,8 @@ file = file 첨부버튼 생성  <br>
 hidden = 사용자에게 안보이지만 서버로 넘겨주는 값이 있는 필드를 생성<br>
 &nbsp;ex) 주석이랑은 다르지만 주석처럼 사용가능<br>
 ```html
-<input type = "text" for = "name">이름
-<input type = "hidden" for = "name">나즈나
+<input type="text" name="name"> 이름
+<input type="hidden" name="hiddenName" value="나즈나">
 ```
 이름을 "나나쿠사" 라고 입력하지만 서버로는 나나쿠사 + 나즈나 두 값이 전송
 
